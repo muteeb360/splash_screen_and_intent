@@ -7,21 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class ShowRecords extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_show_records);
 
-        Button addTaskButton = findViewById(R.id.button4);
-        addTaskButton.setOnClickListener(new View.OnClickListener() {
+        Button backbtn = findViewById(R.id.button5);
+        backbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ShowRecords.class);
-                startActivity(intent);
+                Intent in = new Intent(ShowRecords.this,MainActivity.class);
+                startActivity(in);
             }
         });
-
     }
 }

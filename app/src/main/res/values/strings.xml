@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">splash screen and intent</string>
+    <string name="app_name">ToDo List</string>
+    <string name="et1">Enter Record</string>
+    <string name="btn1">Add</string>
+    <string name="btn2">Show Tasks</string>
+    <string name="btn3">Go Back</string>
+    <string name="ac2te1">Title here</string>
+    <string name="ac2te2">Description Here</string>
 </resources>

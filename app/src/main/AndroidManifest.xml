@@ -12,6 +12,9 @@
         android:theme="@style/Theme.SplashScreenAndIntent"
         tools:targetApi="31">
         <activity
+            android:name=".ShowRecords"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
